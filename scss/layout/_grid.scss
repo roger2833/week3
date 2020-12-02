@@ -1,0 +1,13 @@
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+    @include pad() {
+        margin: 0 auto;
+        max-width: 960px;
+        padding: 0 39px;
+    }
+    @include phone() {
+        padding: 0 15px;
+        max-width: 100%;
+    }
+}

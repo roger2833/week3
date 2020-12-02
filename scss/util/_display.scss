@@ -1,0 +1,35 @@
+/* display scss
+*/
+.d-f{
+    display:flex;
+}
+.jc-c{
+    justify-content:center;
+}
+.jc-fe{
+    justify-content:flex-end;
+}
+
+.jc-sa{
+    justify-content:space-around;
+}
+
+
+.jc-sb{
+    justify-content:space-between;
+}
+
+.ai-c{
+    align-items: center;
+}
+
+.d-f-cc{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-f-sp{
+    display:flex;
+    justify-content:space-between;
+}

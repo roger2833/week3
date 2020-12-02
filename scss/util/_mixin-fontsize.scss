@@ -1,0 +1,41 @@
+@mixin h2-pc-lg {
+    line-height: 90px;
+    font-size: 64px;
+}
+@mixin h2-pd-lg {
+    line-height: 67px;
+    font-size: 48px;
+}
+
+@mixin h2-ph-lg {
+    line-height: 45px;
+    font-size: 32px;
+}
+
+@mixin h3-pd-lg {
+    line-height: 28px;
+    font-size: 20px;
+}
+
+@mixin h3-ph-lg {
+    line-height: 22px;
+    font-size: 16px;
+}
+
+@mixin p-pc-nm {
+    line-height: 24px;
+    font-size: 16px;
+}
+
+@mixin ft-pc-text {
+    font-size: 36px;
+    line-height: 48px;
+}
+@mixin ft-pd-text {
+    font-size: 20px;
+    line-height: 26px;
+}
+@mixin ft-ph-text {
+    font-size: 16px;
+    line-height: 21px;
+}

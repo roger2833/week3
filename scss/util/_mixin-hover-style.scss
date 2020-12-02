@@ -1,0 +1,20 @@
+@mixin white-style-hide {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    height: 3px;
+    left: 50%;
+    right: 50%;
+    transition: 0.2s;
+}
+
+@mixin dark-red-btn-style {
+    background-color: $secondary;
+    transition: 0.2s;
+}
+
+@mixin style-show {
+    left: 0;
+    right: 0;
+}

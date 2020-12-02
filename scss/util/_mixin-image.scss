@@ -1,0 +1,10 @@
+@mixin img-bgi-contain {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@mixin img-bgi-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

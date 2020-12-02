@@ -1,0 +1,187 @@
+/* footer scss
+*/
+.ft {
+    background-color: $primary;
+    padding-top: 48px;
+    padding-bottom: 28.43px;
+    @include pad() {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    @include phone() {
+        padding-top: 23px;
+        padding-bottom: 21.07px;
+    }
+}
+
+.ft-nav {
+    margin-bottom: 36px;
+    font-size: 16px;
+    line-height: 22px;
+    @include phone() {
+        display: none;
+    }
+    li + li {
+        margin-left: 48px;
+    }
+    a {
+        color: #ffffff;
+        @include h3-ph-lg;
+        &:hover {
+            position: relative;
+        }
+        &:hover:after {
+            @include style-show;
+        }
+        &:after {
+            @include white-style-hide;
+        }
+    }
+}
+
+.ft-contact-info {
+    color: #ffffff;
+    margin-bottom: 22px;
+    font-size: 36px;
+    line-height: 48px;
+    @include pad() {
+        @include ft-pd-text;
+        margin-bottom: 27px;
+    }
+    @include phone() {
+        @include ft-ph-text;
+        margin-bottom: 24px;
+    }
+    a {
+        color: #ffffff;
+        &:hover {
+            position: relative;
+        }
+        &:hover:after {
+            @include style-show;
+        }
+        &:after {
+            @include white-style-hide;
+        }
+    }
+    li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 17px;
+        @include pad() {
+            margin-bottom: 11px;
+        }
+        @include phone() {
+            margin-bottom: 7px;
+        }
+    }
+    li + li {
+        margin-bottom: 22px;
+        @include pad() {
+            margin-bottom: 27px;
+        }
+        @include phone() {
+            margin-bottom: 24px;
+        }
+    }
+    img {
+        width: 48px;
+        height: 48px;
+        margin-right: 16px;
+        @include pad() {
+            width: 28px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    }
+    img:first-child {
+        width: 44px;
+        height: 44px;
+        @include pad() {
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+.ft-social-icons-container {
+    margin-left: auto;
+    li + li {
+        margin-left: 32px;
+        @include pad() {
+            margin-left: 24px;
+        }
+    }
+    img {
+        width: 48px;
+        height: 48px;
+        @include pad() {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+.ft-copy-right {
+    padding-top: 27px;
+    border-top: 1px solid #ffffff;
+    color: #ffffff;
+    @include pad() {
+        padding-top: 24px;
+    }
+    @include phone() {
+        flex-direction: column;
+        padding-top: 18px;
+        align-items: start;
+        position: relative;
+    }
+}
+
+.ft-logo {
+    @include ft-ph-text;
+    @include phone() {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 7px;
+    }
+    img {
+        display: inline-block;
+        width: 80px;
+        height: 49px;
+        margin-right: 38px;
+        vertical-align: middle;
+        @include pad() {
+            display: none;
+        }
+        @include phone() {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            display: block;
+            width: 47px;
+            height: 27.93px;
+            margin-right: 0;
+        }
+    }
+    span {
+        color: #ffffff;
+    }
+}
+
+.ft-policy {
+    margin-left: auto;
+    @include phone() {
+        margin-left: 0;
+        display: block;
+    }
+    li:first-child {
+        margin-right: 62px;
+        @include pad() {
+            margin-right: 24px;
+        }
+        @include phone() {
+            margin-right: 0px;
+            margin-bottom: 8px;
+        }
+    }
+}

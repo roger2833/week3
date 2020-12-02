@@ -1,0 +1,16 @@
+/* varaible scss
+*/
+
+// color
+$primary: #aa0601;
+$secondary: #650300;
+$light: #aa06010d;
+
+// sapcing
+$sapcing: 8px;
+.pt-8 {
+    padding-top: $sapcing * 8;
+}
+.pb-10 {
+    padding-top: $sapcing * 10;
+}
